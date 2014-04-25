@@ -18,7 +18,7 @@ public class JedisDemo {
 		}catch(){
 			
 		}
-		jedis.set("mysex", "测试");
+		jedis.set("mysex", "test");
 	}
 	public <T> void pushCache(String key,T value){
 		Jedis jedis = pool.getResource();
