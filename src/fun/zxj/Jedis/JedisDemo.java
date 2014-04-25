@@ -18,7 +18,7 @@ public class JedisDemo {
 		}catch(){
 			
 		}
-		jedis.set("mysex", "ÄÐ");
+		jedis.set("mysex", "æµ‹è¯•");
 	}
 	public <T> void pushCache(String key,T value){
 		Jedis jedis = pool.getResource();
